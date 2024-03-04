@@ -12,6 +12,11 @@ public class UserEntity {
 		this.pwd = pwd;
 	}
 
+	public UserEntity(String phone, String pwd) {
+		this.phone = phone;
+		this.pwd = pwd;
+	}
+
 	public Long getId() {
 		return id;
 	}
