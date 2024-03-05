@@ -3,6 +3,16 @@ package com.mayikt.entity;
 public class UserEntity {
 
 	private Long id;
+
+	@Override
+	public String toString() {
+		return "UserEntity{" +
+						 "id=" + id +
+						 ", phone='" + phone + '\'' +
+						 ", pwd='" + pwd + '\'' +
+						 '}';
+	}
+
 	private  String phone;
 	private String pwd;
 
